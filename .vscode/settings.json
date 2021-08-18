@@ -1,0 +1,7 @@
+{
+  "prettier.tabWidth": 4,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "markdown.extension.tableFormatter.normalizeIndentation": true,
+  "editor.formatOnSave": true
+}
