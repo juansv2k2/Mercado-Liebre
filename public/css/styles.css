@@ -25,7 +25,7 @@
 }
 
 .justify-center {
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .justify-space-between {
@@ -45,6 +45,7 @@
 }
 .w-100 {
     width: 100%;
+    justify-content: center;
 }
 
 .padding-5px {
@@ -79,9 +80,9 @@ body {
     padding-bottom: 15px;
 }
 
-.logo {
-    width: 50%;
-    padding: 15px;
+#logo {
+    max-width: 50%;
+    padding: 10px;
 }
 
 .logo-input-icon {
@@ -107,10 +108,19 @@ body {
     right: 0px;
 }
 
+.searchbar {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 90%;
+}
+
 .search-icon {
     position: absolute;
     right: 10px;
     top: 26px;
+}
+.lupa {
 }
 
 .text-align-center {
@@ -318,11 +328,28 @@ main section article i {
     color: red;
     font-size: 8px;
 }
-
+.position {
+    position: relative;
+}
 .button {
-    background-color: lightgray;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: 15px;
+    top: 0px;
 }
 .button:hover {
+    background-color: #0022aa;
+}
+
+.button-form {
+    background-color: lightgray;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.button-form:hover {
     background-color: #0022aa;
 }
 
@@ -388,12 +415,6 @@ main section article i {
         display: flex;
         flex-wrap: wrap;
         position: relative;
-    }
-
-    .logo {
-        width: 50%;
-        margin-bottom: 30px;
-        margin-right: 0px;
     }
 
     .input-search {
@@ -471,6 +492,10 @@ main section article i {
 /* laptop - desktop */
 
 @media (min-width: 769px) {
+    #logo {
+        max-width: 25%;
+        padding: 15px;
+    }
     .logo-input-icon-compra {
         display: flex;
         flex-wrap: wrap;
@@ -483,12 +508,6 @@ main section article i {
         flex-wrap: wrap;
         position: relative;
         width: 70%;
-    }
-
-    .logo {
-        width: 40%;
-        margin-bottom: 0px;
-        margin-right: 5px;
     }
 
     .input-search {
@@ -523,8 +542,7 @@ main section article i {
 
     .main-header-top-bar,
     .main-nav-bar {
-        max-width: 1200px;
-        margin: auto;
+        margin: 0 3%;
     }
 
     .main-header-top-bar {
