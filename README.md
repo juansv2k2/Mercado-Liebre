@@ -1,5 +1,7 @@
 # Mercado Liebre
 
+![Website Preview](public/images/snapshot-1.png)
+
 Mercado Liebre is a mock e-commerce web project inspired by Mercado Libre. It demonstrates the basic structure and functionality of an online store, including product listings, pricing, user registration, and login pages.
 
 ## Features
